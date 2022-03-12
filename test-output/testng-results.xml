@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-12T20:09:21Z" name="Suite" finished-at="2022-03-12T20:09:27Z" duration-ms="6519">
+    <groups>
+    </groups>
+    <test started-at="2022-03-12T20:09:21Z" name="Test" finished-at="2022-03-12T20:09:27Z" duration-ms="6519">
+      <class name="com.tmb.tests.HomepageTests">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.tmb.tests.HomepageTests@30b7c004]" started-at="2022-03-12T20:09:21Z" name="setUp" finished-at="2022-03-12T20:09:24Z" duration-ms="3096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2472c7d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoogle(java.util.Map)[pri:0, instance:com.tmb.tests.HomepageTests@30b7c004]" started-at="2022-03-12T20:09:24Z" name="testGoogle" description="To Check Google" finished-at="2022-03-12T20:09:26Z" duration-ms="1738" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=, password=, browser=chrome, testname=testGoogle, execute=yes, version=88.0.4324.96, menutext=Laptops, username=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[It does not contains expected text] 
+Expecting:
+ <"Testing mini bytes - Youtube - بحث Google‏">
+to contain:
+ <"google search">
+ (ignoring case)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [It does not contains expected text] 
+Expecting:
+ <"Testing mini bytes - Youtube - بحث Google‏">
+to contain:
+ <"google search">
+ (ignoring case)
+at com.tmb.tests.HomepageTests.testGoogle(HomepageTests.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmb.tests.HomepageTests@30b7c004]" started-at="2022-03-12T20:09:26Z" name="tearDown" finished-at="2022-03-12T20:09:27Z" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tmb.tests.HomepageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
